@@ -116,7 +116,7 @@ section .title::after{
 .home{
 display: flex;
 /* background-color: #000; */
-background: url("images/bg.jpg") no-repeat center;
+background: url("images/bg.jpg") no-repeat;
 height: 100vh;
 background-color: #000;
 color: white;
