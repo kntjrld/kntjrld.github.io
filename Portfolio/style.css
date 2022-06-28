@@ -224,6 +224,10 @@ font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
 }
 
+.education .education-content .right p span a{
+  color: #801818;
+}
+
 
 /* Skills section style */
 .skills{
@@ -454,6 +458,61 @@ transform: scale(1.05);
     width: 5%;
   }
 }
+
+/* Contacts section style */
+.media{
+  display: flex;
+  justify-content: center;
+}
+.media a{
+  display: flex;
+  background-color: #fff;
+  width: 75px;
+  height: 75px;
+  border-radius: 8px;
+  margin: 0 15px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.media a i{
+  font-size: 35px;
+  color: #777;
+  transition: transform 0.5s ease;
+}
+
+.media a:hover{ 
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), 
+              inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+              -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+              0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+              0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  }
+
+  .media a:hover i{
+    transform: scale(0.90);
+  }
+
+  .media a:hover .fa-facebook{
+    color: #3b5998;
+  }
+
+  .media a:hover .fa-instagram{
+    color: #f14843;
+  }
+
+  
+  .media a:hover .fa-medium{
+    color: #000;
+  }
+  
+  .media a:hover .fa-telegram{
+    color: #229ED9;
+  }
+
 /* footer */
 footer p{
   text-align: center;
@@ -567,6 +626,12 @@ footer p{
     width: calc(50% - 10px);
     margin-bottom: 20px;
   }
+  
+.media a{
+  width: 70px;
+  height: 70px;
+}
+
 }
 
 
@@ -634,6 +699,12 @@ footer p{
   .skills .skills-content .card text{
     font-size: 20px;
   }
+
+  .media a{
+    width: 60px;
+    height: 60px;
+  }
+  
 }
 
 #preloader{
