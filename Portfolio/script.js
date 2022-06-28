@@ -7,12 +7,12 @@ $(document).ready(function(){
         }
     });
 
-    //nav bar script
+    //nav bar script ==> open navigation
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active"); 
     });
-
+    //close navigation when onclick
     $('.menu').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active"); 

@@ -77,7 +77,6 @@ section{
   padding: 100px 0;
 }
 
-
 section .title{
   position: relative;
   text-align: center;
@@ -116,7 +115,8 @@ section .title::after{
 
 .home{
 display: flex;
-background-color: #000;
+/* background-color: #000; */
+background: url("images/bg.jpg");
 height: 100vh;
 color: white;
 min-height: 500px;
