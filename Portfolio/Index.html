@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+
+<body>
+
+    <div id="preloader"></div>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Ken<span>T</span></a></div>
+            <ul class="menu">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Kent Jarold Abulag</div>
+                <div class="text-3">And I'm a web developer</div>
+                <a href="#" onClick="alert('Not available')">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education section -->
+    <section class="education" id="education">
+        <div class="max-width">
+            <h2 class="title">My Education</h2>
+            <div class="education-content">
+                <div class="left">
+                    <img src="images/logos.png" alt="">
+                </div>
+                <div class="right">
+                    <div class="text"><span>Schools</span> and <span>Experience</span></div>
+                        <p>I finished my elementary education at Loyal Elementary School, batch 2011-2012. Then 2018, I graduated at Aurelio Arago Memorial National High School. At my college journey, I take a course Bachelor of Science in Information Technology and started to become curious about web and application development. And before graduation I was awarded as Programmer of the year and Best in Thesis. I also try to learn cyber security where in this field I started to earn money and also write a blog <span><a href="https://medium.com/@kntjrld">here.</a><span></p>
+                    </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Skills section -->
+
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Programming Languages</div>
+                        <div class="skills-bar">
+                           
+                            <li><h3>Java</h3>
+                                <span class="bar"><span class="Java"></span></span>
+                            </li>
+                            <li><h3>Visual Basic .NET</h3>
+                                <span class="bar"><span class="NET"></span></span>
+                            </li>
+                            <li><h3>C#</h3>
+                                <span class="bar"><span class="C"></span></span>
+                            </li>
+                            <li><h3>Python</h3>
+                                <span class="bar"><span class="Python"></span></span>
+                            </li>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text"></div>Database Management</div>
+                        <div class="skills-bar">
+                            <li><h3>MySql</h3>
+                                <span class="bar"><span class="MySql"></span></span>
+                            </li>
+                            <li><h3>Sqlite</h3>
+                                <span class="bar"><span class="Sqlite"></span></span>
+                            </li>
+                            <li><h3>Microsoft SQL Server</h3>
+                                <span class="bar"><span class="Microsoft"></span></span>
+                            </li>
+                            <li><h3>MS Access</h3>
+                                <span class="bar"><span class="Access"></span></span>
+                            </li>
+                        </div>
+                        </div>       
+                                   
+                <div class="card">
+                        <div class="box">
+                            <i class="fas fa-paint-brush"></i>
+                            <div class="text">Web Design</div>
+                            <div class="skills-bar">
+
+                                <li><h3>Html</h3>
+                                    <span class="bar"><span class="html"></span></span>
+                                </li>
+                                <li><h3>Css</h3>
+                                    <span class="bar"><span class="css"></span></span>
+                                </li>
+                                <li><h3>Javascript</h3>
+                                    <span class="bar"><span class="Javascript"></span></span>
+                                </li>
+                                <li><h3>jquery</h3>
+                                    <span class="bar"><span class="jquery"></span></span>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+             </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+
+            </div>
+        </div>
+    </section>
+
+    <footer>    
+        <p>© 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+<script>
+ var loader = document.getElementById("preloader");
+ window.addEventListener("load", function(){
+    loader.style.display = "none"
+ });
+</script>
+
+</body>
+</html>
