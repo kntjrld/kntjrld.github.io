@@ -171,7 +171,7 @@ font-family: 'Ubuntu', sans-serif;
 
 /* education section style */
 
-.education, .skills{
+.education, .skills, .contact{
   font-family: 'Poppins', sans-serif;
 }
 
@@ -464,6 +464,11 @@ transform: scale(1.05);
   display: flex;
   justify-content: center;
 }
+
+.contact .title::after{
+  content: "Socials";
+}
+
 .media a{
   display: flex;
   background-color: #fff;
@@ -709,7 +714,7 @@ footer p{
 
 #preloader{
     background: #fff url(images/preloader.gif) no-repeat center center;
-    background-size: 25%;
+    background-size: 30%;
     height: 100vh;
     width: 100%;
     position: fixed;
