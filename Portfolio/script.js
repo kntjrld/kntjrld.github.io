@@ -10,8 +10,12 @@ $(document).ready(function(){
     //nav bar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
-        $('.menu-btn i').toggleClass("active");
+        $('.menu-btn i').toggleClass("active"); 
     });
 
+    $('.menu').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active"); 
+    });
 
 });
