@@ -225,7 +225,7 @@ font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
 }
 
-.education .education-content .right p span a{
+.education .education-content .right p span{
   color: #801818;
 }
 
@@ -515,6 +515,10 @@ transform: scale(1.05);
   
   .media a:hover .fa-telegram{
     color: #229ED9;
+  }
+
+  .media a:hover .fa-envelope{
+    color: #000;
   }
 
 /* footer */
