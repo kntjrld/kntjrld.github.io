@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $(window).scroll(function(){
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
@@ -6,8 +7,7 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
 
-        
-        if(this.window = '.skills'){
+        if(this.window = '.skilss'){
             $('.html').toggleClass("htmlstart");
             $('.css').toggleClass("cssstart");
             $('.Javascript').toggleClass("javascriptstart");

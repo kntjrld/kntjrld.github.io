@@ -33,7 +33,7 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Kent Jarold Abulag</div>
+                <div class="text-2"><span class="animate"></span></div>
                 <div class="text-3">And I'm a web developer</div>
                 <a href="#" onClick="alert('Not available')">Download CV</a>
             </div>
@@ -155,13 +155,23 @@
         <p>© 2022</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="lib/script.js"></script>
+    <script src="lib/typed.js"></script>
 
+    
 <script>
  var loader = document.getElementById("preloader");
  window.addEventListener("load", function(){
     loader.style.display = "none"
  });
+
+ var typed = new Typed('.animate', {
+  strings: ['Kent Jarold Abulag'],
+  typeSpeed: 60,
+  loop: false
+
+});
+
 </script>
 
 </body>
