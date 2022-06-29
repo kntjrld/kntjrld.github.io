@@ -304,54 +304,52 @@ transform: scale(1.05);
   background: linear-gradient(135deg, rgba(126, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
 
 }
-.html{
+
+.html.htmlstart{
   width: 90%;
   animation: html 3s;
 }
-.css{
-  
+.css.cssstart{
   width: 85%;
   animation: css 3s;
 }
-.Javascript{
-  
+.Javascript.javascriptstart{
   width: 50%;
   animation: Javascript 3s;
 }
-.jquery{
-
+.jquery.jquerystart{
   width: 30%;
   animation: jquery 3s;
 }
-.MySql{
+.MySql.sqlstart{
   width: 80%;
-  animation: Mysql 3s;
+  animation: MySql 3s;
 }
-.Sqlite{
+.Sqlite.sqlitestart{
   width: 50%;
   animation: Sqlite 3s;
 }
-.Microsoft{
+.Microsoft.microsoftstart{
   width: 75%;
   animation: Microsoft 3s;
 }
-.Access{
+.Access.accessstart{
   width: 30%;
   animation: Access 3s;
 }
-.Java{
+.Java.javastart{
   width: 95%;
   animation: Java 3s;
 }
-.NET{
+.NET.netstart{
   width: 80%;
   animation: NET 3s;
 }
-.C{
+.C.cstart{
   width: 10%;
   animation: C 3s;
 }
-.Python{
+.Python.pythonstart{
   width: 5%;
   animation: Python 3s;
 }
