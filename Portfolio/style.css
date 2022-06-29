@@ -621,6 +621,10 @@ footer p{
     flex: 100%;
   }
 
+  .education .education-content .right p{
+    font-size: 18px;
+  }
+
   .skills-bar{
     width: 200px;
   }
@@ -635,10 +639,10 @@ footer p{
     margin-bottom: 20px;
   }
   
-.media a{
+  .media a{
   width: 70px;
   height: 70px;
-}
+  }
 
 }
 
@@ -663,6 +667,10 @@ footer p{
   }
   
   
+  .education .education-content .right p{
+    font-size: 16px;
+  }
+
   .skills-bar{
     width: 150px;
   }
@@ -670,9 +678,15 @@ footer p{
     font-size: 15px;
   }
   
-.skills .skills-content .card text{
+  .skills .skills-content .card text{
   font-size: 23px;
-}
+  }
+
+  .media a{
+    width: 60px;
+    height: 60px;
+  }
+  
 
 }
 
@@ -708,9 +722,14 @@ footer p{
     font-size: 20px;
   }
 
+  
+  .education .education-content .right p{
+    font-size: 14px;
+  }
+
   .media a{
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
   }
   
 }
