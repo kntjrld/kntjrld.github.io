@@ -538,7 +538,7 @@ transform: scale(1.05);
     color: #0072b1;
   }
 /* mail form */
-.directmail{
+/* .directmail{
   margin-top: 50px;
   font-size: 14px;
 
@@ -563,7 +563,7 @@ transform: scale(1.05);
 
 .directmail button:hover{
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
-}
+} */
 
 
 /* footer */
