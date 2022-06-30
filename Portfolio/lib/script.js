@@ -37,8 +37,4 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active"); 
     });
 
-    $('.float').click(function(){
-            $('#content').show(500);
-        });
-
 });

@@ -537,34 +537,6 @@ transform: scale(1.05);
   .media a:hover .fa-linkedin{
     color: #0072b1;
   }
-/* mail form */
-/* .directmail{
-  margin-top: 50px;
-  font-size: 14px;
-
-}
-.directmail input{
-  width: 100vh;
-  height: 50px;
-  padding: 5px;
-  }
-
-.directmail textarea{
-  width: 100vh;
-  height: auto;
-  padding: 10px;
-}
-
-.directmail button{
-  padding: 10px;
-  width: 100vh;
-  border-radius: 10px;
-}
-
-.directmail button:hover{
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
-} */
-
 
 /* footer */
 footer p{
@@ -739,7 +711,6 @@ footer p{
     width: 60px;
     height: 60px;
   }
-  
   
   .float{
     width:60px;
