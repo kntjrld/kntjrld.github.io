@@ -4,14 +4,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Website</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
 
 <body>
-
     <div id="preloader"></div>
+    <a class="float" href="#contact">
+        <i class="fas fa-envelope"></i>
+    </a>
 
     <nav class="navbar">
         <div class="max-width">
@@ -50,12 +51,12 @@
                 </div>
                 <div class="right">
                     <div class="text"><span>Schools</span> and <span>Experience</span></div>
-                     <p><span>Primary:</span> Loyal Elementary School (batch 2011-2012)</p>
-                     <p><span>Secondary:</span> Aurelio Arago Memorial National High School (batch 2017-2018)</p>
-                     <p><span>College:</span> Occidental Mindoro State College (batch 2021-2022)</p></br>
-                     <p><span>Thesis/capstone:</span> Android Studio(Java and Kotlin Language)</p>
-                     <p><span>Internship/OJT:</span> Visual Basic .Net</p>
-                     <p><span>Meta Bug Bounty:</span> HoF 2021 and 2022</p>
+                     <p class="primary"><span>Primary:</span> Loyal Elementary School (batch 2011-2012)</p>
+                     <p class="secondary"><span>Secondary:</span> Aurelio Arago Memorial National High School (batch 2017-2018)</p>
+                     <p class="college"><span>College:</span> Occidental Mindoro State College (batch 2021-2022)</p></br>
+                     <p class="capstone"><span>Thesis/capstone:</span> Android Studio(Java and Kotlin Language)</p>
+                     <p class="ojt"><span>Internship/OJT:</span> Visual Basic .Net</p>
+                     <p class="meta"><span>Meta Bug Bounty:</span> HoF 2021 and 2022</p>
                     </div>
             </div>
         </div>
@@ -146,7 +147,19 @@
                     <a href="https://instagram.com/kntjrld"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.medium.com/@kntjrld"><i class="fab fa-medium"></i></a>
                     <a href="https://t.me/kntjrld"><i class="fab fa-telegram"></i></a>
-                    <a href="mailto:kentjarold57@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/kntjrld"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="directmail">
+                    <h2 class="getin">Get in touch</h2>
+                    <form action="php/mail.php" method="post">
+                        <p>Name</p>
+                        <input type="text" name="name" placeholder="Your name"></br>
+                        <p>Email Address</p>
+                        <input type="email" name="emailaddress" placeholder="Your Email address"></br>
+                        <p>Messages</p>
+                        <textarea name="message" rows="10" cols="30" placeholder="Your Message"></textarea></br>
+                        <button type="button" name="submit">Submit</button>      
+                    </form>
                 </div>
         </div>
     </section>

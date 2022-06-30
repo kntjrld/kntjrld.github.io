@@ -7,7 +7,7 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
 
-        if(this.window = '.skilss'){
+        if(this.window = '.skils'){
             $('.html').toggleClass("htmlstart");
             $('.css').toggleClass("cssstart");
             $('.Javascript').toggleClass("javascriptstart");
@@ -23,6 +23,9 @@ $(document).ready(function(){
         }
     });
 
+    //animation using jquery
+    $('.text-3').hide(0).slideDown(1000);
+    
     //nav bar script ==> open navigation
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
@@ -33,5 +36,9 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active"); 
     });
+
+    $('.float').click(function(){
+            $('#content').show(500);
+        });
 
 });

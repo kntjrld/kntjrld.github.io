@@ -5,6 +5,24 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+  /* float .fa-envelope */
+
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#801818;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  }
+  
+  .fa-envelope{
+    margin-top:22px;
+  }
+
  /* nav style */
 
  .max-width{
@@ -313,11 +331,11 @@ transform: scale(1.05);
   animation: css 3s;
 }
 .Javascript.javascriptstart{
-  width: 50%;
+  width: 75%;
   animation: Javascript 3s;
 }
 .jquery.jquerystart{
-  width: 30%;
+  width: 70%;
   animation: jquery 3s;
 }
 .MySql.sqlstart{
@@ -375,7 +393,7 @@ transform: scale(1.05);
     width: 0%;
   }
   100%{
-    width: 50%;
+    width: 75%;
   }
 }
 
@@ -384,7 +402,7 @@ transform: scale(1.05);
     width: 0%;
   }
   100%{
-    width: 30%;
+    width: 70%;
   }
 }
 
@@ -516,9 +534,37 @@ transform: scale(1.05);
     color: #229ED9;
   }
 
-  .media a:hover .fa-envelope{
-    color: #000;
+  .media a:hover .fa-linkedin{
+    color: #0072b1;
   }
+/* mail form */
+.directmail{
+  margin-top: 50px;
+  font-size: 14px;
+
+}
+.directmail input{
+  width: 100vh;
+  height: 50px;
+  padding: 5px;
+  }
+
+.directmail textarea{
+  width: 100vh;
+  height: auto;
+  padding: 10px;
+}
+
+.directmail button{
+  padding: 10px;
+  width: 100vh;
+  border-radius: 10px;
+}
+
+.directmail button:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+}
+
 
 /* footer */
 footer p{
@@ -643,6 +689,14 @@ footer p{
   height: 70px;
   }
 
+  .float{
+    width:60px;
+    height:60px;
+    bottom:36px;
+    right:36px;
+  }
+ 
+
 }
 
 
@@ -686,6 +740,13 @@ footer p{
     height: 60px;
   }
   
+  
+  .float{
+    width:60px;
+    height:60px;
+    bottom:34px;
+    right:34px;
+  }
 
 }
 
@@ -729,6 +790,14 @@ footer p{
   .media a{
     width: 55px;
     height: 55px;
+  }
+
+  
+  .float{
+    width:60px;
+    height:60px;
+    bottom:18px;
+    right:18px;
   }
   
 }
