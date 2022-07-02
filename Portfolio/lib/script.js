@@ -7,20 +7,6 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
 
-        if(this.window = '.skils'){
-            $('.html').toggleClass("htmlstart");
-            $('.css').toggleClass("cssstart");
-            $('.Javascript').toggleClass("javascriptstart");
-            $('.jquery').toggleClass("jquerystart");
-            $('.Sqlite').toggleClass("sqlitestart");
-            $('.Microsoft').toggleClass("microsoftstart");
-            $('.Access').toggleClass("accessstart");
-            $('.Java').toggleClass("javastart");
-            $('.NET').toggleClass("netstart");
-            $('.C').toggleClass("cstart");
-            $('.Python').toggleClass("pythonstart");
-            $('.MySql').toggleClass("sqlstart");
-        }
     });
 
     //animation using jquery

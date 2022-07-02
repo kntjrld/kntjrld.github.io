@@ -322,53 +322,53 @@ transform: scale(1.05);
 
 }
 
-.html.htmlstart{
+.html{
   width: 90%;
-  animation: html 3s;
+  animation: html 5s;
 }
-.css.cssstart{
+.css{
   width: 85%;
-  animation: css 3s;
+  animation: css 5s;
 }
-.Javascript.javascriptstart{
+.Javascript{
   width: 75%;
-  animation: Javascript 3s;
+  animation: Javascript 5s;
 }
-.jquery.jquerystart{
+.jquery{
   width: 70%;
-  animation: jquery 3s;
+  animation: jquery 5s;
 }
-.MySql.sqlstart{
+.MySql{
   width: 80%;
-  animation: MySql 3s;
+  animation: MySql 5s;
 }
-.Sqlite.sqlitestart{
+.Sqlite{
   width: 50%;
-  animation: Sqlite 3s;
+  animation: Sqlite 5s;
 }
-.Microsoft.microsoftstart{
+.Microsoft{
   width: 75%;
-  animation: Microsoft 3s;
+  animation: Microsoft 5s;
 }
-.Access.accessstart{
+.Access{
   width: 30%;
-  animation: Access 3s;
+  animation: Access 5s;
 }
-.Java.javastart{
+.Java{
   width: 95%;
-  animation: Java 3s;
+  animation: Java 5s;
 }
-.NET.netstart{
+.NET{
   width: 80%;
-  animation: NET 3s;
+  animation: NET 5s;
 }
-.C.cstart{
+.C{
   width: 10%;
-  animation: C 3s;
+  animation: C 5s;
 }
-.Python.pythonstart{
+.Python{
   width: 5%;
-  animation: Python 3s;
+  animation: Python 5s;
 }
 @keyframes html {
   0%{
