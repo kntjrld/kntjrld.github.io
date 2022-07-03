@@ -206,7 +206,6 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .education-content h1{
-  text-align: center;
   padding: 4rem 0;
   margin: 0 auto;
 }
@@ -259,7 +258,7 @@ font-family: 'Ubuntu', sans-serif;
 
 .edusection:nth-child(odd){
   flex-direction: row-reverse;
-  transform: translateX(100%);
+  transform: translateX(5%);
 }
 .bead{
   position: absolute;
@@ -275,15 +274,11 @@ font-family: 'Ubuntu', sans-serif;
 .content{
   width: calc(50% - 2rem);
 }
-
 .show-me:nth-child(n){
   transform: none;
   opacity: 1;
 }
 
-.education-content h1{
-  text-align: center  ;
-}
 
 /* Skills section style */
 .skills{
@@ -731,7 +726,7 @@ footer p{
 
 @media (max-width: 500px){
   .max-width{
-    padding: 0 23px;
+    padding: 0 20px;
   }  
 
   .home .home-content .text-2{
