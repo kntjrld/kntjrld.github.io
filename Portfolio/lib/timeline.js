@@ -5,7 +5,7 @@ function qs(selector, all = false) {
   return all ? document.querySelectorAll(selector) : document.querySelector(selector);
 }
 
-const sections = qs('.section', true);
+const sections = qs('.edusection', true);
 const timeline = qs('.timeline');
 const line = qs('.line');
 line.style.bottom = `calc(100% - 20px)`;

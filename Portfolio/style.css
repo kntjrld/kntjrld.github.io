@@ -205,13 +205,11 @@ font-family: 'Ubuntu', sans-serif;
   justify-content: space-between ;
 }
 
-/* 
 .education-content h1{
   text-align: center;
   padding: 4rem 0;
-  max-width: 600px;
   margin: 0 auto;
-} */
+}
 
 .timeline{
   position: relative;
@@ -245,7 +243,7 @@ font-family: 'Ubuntu', sans-serif;
 .line::after{
   bottom: 0%;
 }
-.section{
+.edusection{
   display: flex;
   opacity: 0%;
   transform: translateX(-100%);
@@ -593,15 +591,6 @@ footer p{
     margin-left: 0px;
     }
   }
-
-
-
-@media (max-width: 1104){
-  .education .education-content .left img{
-    width: 350px;
-    height: 350px;
-  }  
-}
 
   @media (max-width: 991){
     .max-width{
