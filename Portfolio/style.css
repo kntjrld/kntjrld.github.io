@@ -257,7 +257,7 @@ font-family: 'Ubuntu', sans-serif;
   min-height: 300px;
 }
 
-.section:nth-child(odd){
+.edusection:nth-child(odd){
   flex-direction: row-reverse;
   transform: translateX(100%);
 }
@@ -731,7 +731,7 @@ footer p{
 
 @media (max-width: 500px){
   .max-width{
-    padding: 0 20px;
+    padding: 0 23px;
   }  
 
   .home .home-content .text-2{
