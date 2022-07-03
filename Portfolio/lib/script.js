@@ -6,7 +6,6 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
-
     });
 
     //animation using jquery

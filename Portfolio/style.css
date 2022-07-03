@@ -205,47 +205,86 @@ font-family: 'Ubuntu', sans-serif;
   justify-content: space-between ;
 }
 
-
-.education .education-content .left{
-  width: 45%;
+.education-content h1{
+  text-align: center;
+  padding: 4rem 0;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-
-.education .education-content .left img{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
+.timeline{
+  position: relative;
+  min-height: 150px;
 }
 
+.line{
+  position: absolute;
+  z-index: 2;
+  left: calc(50% - 1px);
+  width: 2px;
+  top: -50px;
+  bottom: -50px;
+  background-color: #000;
+  display: none;
+  }
+  
 
-.education .education-content .right{
-  width: 55%;
+.line::before,
+.line::after{
+  position: absolute;
+  display: block;
+  content: '';
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #000;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.line::after{
+  bottom: 0%;
+}
+.section{
+  display: flex;
+  opacity: 0%;
+  transform: translateX(-100%);
+  transition: 600ms ease;
+  position: relative;
+  z-index: 1;
+  margin: 50px 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+  min-height: 300px;
 }
 
-.education .education-content .right .text{
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
+.section:nth-child(odd){
+  flex-direction: row-reverse;
+  transform: translateX(100%);
+}
+.bead{
+  position: absolute;
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #000;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+}
+.content{
+  width: calc(50% - 2rem);
 }
 
-.education .education-content .right .text span{
-  font-size: 25px;
-  font-weight: 600;
-  color: #801818;
-  margin-bottom: 10px;
+.show-me:nth-child(n){
+  transform: none;
+  opacity: 1;
 }
 
-.education .education-content .right p{
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+.education-content h1{
+  text-align: center  ;
 }
-
-.education .education-content .right p span{
-  color: #801818;
-}
-
 
 /* Skills section style */
 .skills{
@@ -627,20 +666,6 @@ footer p{
   .education .education-content .column{
     width: 50%;
   }
-  
-  .education .education-content .left{
-    display: flex; 
-    justify-content: center;
-    margin: 0 auto 60px;
-  }
-
-  .education .education-content .right{
-    flex: 100%;
-  }
-
-  .education .education-content .right p{
-    font-size: 18px;
-  }
 
   .skills-bar{
     width: 200px;
@@ -667,7 +692,6 @@ footer p{
     bottom:36px;
     right:36px;
   }
- 
 
 }
 
@@ -691,11 +715,6 @@ footer p{
     padding: 8px 32px; 
   }
   
-  
-  .education .education-content .right p{
-    font-size: 16px;
-  }
-
   .skills-bar{
     width: 150px;
   }
@@ -718,7 +737,6 @@ footer p{
     bottom:34px;
     right:34px;
   }
-
 }
 
 @media (max-width: 500px){
@@ -751,11 +769,6 @@ footer p{
 
   .skills .skills-content .card text{
     font-size: 20px;
-  }
-
-  
-  .education .education-content .right p{
-    font-size: 14px;
   }
 
   .media a{
