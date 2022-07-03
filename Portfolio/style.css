@@ -27,7 +27,7 @@
 
  .max-width{
   max-width: 1300px;
-  padding: 0 80px;
+  padding: 0 50px;
   margin: auto;
  }
 
@@ -195,7 +195,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .education .title::after{
-  content: "S & E";
+  content: "E & E";
 }
 
 .education .education-content, .skills .skills-content{
@@ -402,7 +402,7 @@ transform: scale(1.05);
   animation: NET 5s;
 }
 .C{
-  width: 10%;
+  width: 5%;
   animation: C 5s;
 }
 .Python{
