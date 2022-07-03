@@ -205,12 +205,13 @@ font-family: 'Ubuntu', sans-serif;
   justify-content: space-between ;
 }
 
+/* 
 .education-content h1{
   text-align: center;
   padding: 4rem 0;
   max-width: 600px;
   margin: 0 auto;
-}
+} */
 
 .timeline{
   position: relative;
