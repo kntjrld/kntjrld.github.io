@@ -218,6 +218,10 @@ font-family: 'Ubuntu', sans-serif;
   min-height: 150px;
 }
 
+.content p span{
+  color: #801818;
+}
+
 .line{
   position: absolute;
   z-index: 2;
@@ -325,7 +329,6 @@ transform: scale(1.05);
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-
 
 /* Skills bar style*/
 
@@ -578,6 +581,7 @@ transform: scale(1.05);
 
 /* footer */
 footer p{
+  padding: 5px;
   text-align: center;
   background: #801818;
   font-size: 12px;
