@@ -52,7 +52,7 @@
 }
 .navbar .logo a{
   color: #fff;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   transition: all 0.3s ease;
 }
@@ -63,8 +63,6 @@
 
 .navbar .logo a span{
   color: #801818;
-  font-size: 35px;
-  font-weight: 600;
 }
 
 .navbar .menu li {
@@ -86,6 +84,11 @@
 
 .navbar.sticky .menu li hover{
   color: #fff;
+}
+
+.logo img{
+  height: 30px;
+  width: 30px;
 }
 
 
