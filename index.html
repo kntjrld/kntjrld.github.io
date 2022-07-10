@@ -38,7 +38,7 @@
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2"><span class="animate"></span></div>
-                <div class="text-3">And I'm a web developer</div>
+                <div class="text-3">And I'm a <span class="animate-1"></span> developer</div>
                 <a href="#" onClick="alert('Not available')">Download Resume</a>
             </div>
         </div>
@@ -197,7 +197,13 @@
   typeSpeed: 60,
   loop: false,
   showCursor: false
+});
 
+var typed = new Typed('.animate-1', {
+  strings: ['Web', 'Application'],
+  typeSpeed: 60,
+  loop: true,
+  showCursor: false
 });
 
 </script>
