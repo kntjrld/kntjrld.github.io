@@ -50,20 +50,6 @@
   align-items: center;
   justify-content: space-between;
 }
-.navbar .logo a{
-  color: #fff;
-  font-size: 25px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.navbar.sticky .logo a span{
-  color: #fff;
-}
-
-.navbar .logo a span{
-  color: #801818;
-}
 
 .navbar .menu li {
  list-style-type: none;
@@ -85,12 +71,13 @@
 .navbar.sticky .menu li hover{
   color: #fff;
 }
-
-.logo img{
-  height: 30px;
-  width: 30px;
+.nav-logo{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
-
 
 /* All similar content codes */
 
@@ -357,165 +344,6 @@ transform: scale(1.05);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.bar span{
-  height: 20px;
-  float: left;
-  background: linear-gradient(135deg, rgba(126, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
-}
-
-.html{
-  width: 90%;
-  animation: html 5s;
-}
-.css{
-  width: 85%;
-  animation: css 5s;
-}
-.Javascript{
-  width: 75%;
-  animation: Javascript 5s;
-}
-.jquery{
-  width: 70%;
-  animation: jquery 5s;
-}
-.MySql{
-  width: 80%;
-  animation: MySql 5s;
-}
-.Sqlite{
-  width: 50%;
-  animation: Sqlite 5s;
-}
-.Microsoft{
-  width: 75%;
-  animation: Microsoft 5s;
-}
-.Access{
-  width: 30%;
-  animation: Access 5s;
-}
-.Java{
-  width: 95%;
-  animation: Java 5s;
-}
-.NET{
-  width: 80%;
-  animation: NET 5s;
-}
-.C{
-  width: 5%;
-  animation: C 5s;
-}
-.Python{
-  width: 5%;
-  animation: Python 5s;
-}
-@keyframes html {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 90%;
-  }
-}
-
-@keyframes css {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 85%;
-  }
-}
-
-@keyframes Javascript {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 75%;
-  }
-}
-
-@keyframes jquery {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 70%;
-  }
-}
-
-@keyframes MySql {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 80%;
-  }
-}
-
-@keyframes Sqlite {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 50%;
-  }
-}
-
-@keyframes Microsoft {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 75%;
-  }
-}
-
-@keyframes Access {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 30%;
-  }
-}
-
-@keyframes Java {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 95%;
-  }
-}
-@keyframes NET {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 80%;
-  }
-}
-@keyframes C {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 10%;
-  }
-}
-@keyframes Python {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 5%;
-  }
-}
-
 /* Contacts section style */
 .media{
   display: flex;
@@ -667,7 +495,7 @@ footer p{
 
   
   .skills-bar li{
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .skills .skills-content .card{
@@ -709,15 +537,8 @@ footer p{
     padding: 8px 32px; 
   }
   
-  .skills-bar{
-    width: 150px;
-  }
-  .skills-bar li{
-    font-size: 15px;
-  }
-  
-  .skills .skills-content .card text{
-  font-size: 23px;
+  .skills .skills-content .text{
+  font-size: 18px;
   }
 
   .media a{
@@ -758,11 +579,11 @@ footer p{
   
   
   .skills-bar li{
-    font-size: 10px;
+    font-size: 12px;
   }
 
-  .skills .skills-content .card text{
-    font-size: 20px;
+  .skills .skills-content .text{
+    font-size: 14px;
   }
 
   .media a{
