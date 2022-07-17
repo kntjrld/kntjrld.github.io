@@ -139,7 +139,7 @@ section .title::after {
   height: 100vh;
   /* background-color: #000; */
   color: #000;
-  min-height: 500px;
+  /* min-height: 100vh; */
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -152,7 +152,7 @@ section .title::after {
   display: none;
 }
 
-.navbar.sticky .menu-btn{
+.navbar.sticky .menu-btn {
   color: #fff;
 }
 
