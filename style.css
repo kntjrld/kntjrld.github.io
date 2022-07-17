@@ -139,7 +139,7 @@ section .title::after {
   height: 100vh;
   /* background-color: #000; */
   color: #000;
-  min-height: 500px;
+  min-height: 400px;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -499,6 +499,7 @@ section .title::after {
   .navbar .menu li a {
     display: inline-block;
     margin: 20px 0;
+    color: #fff ;
     font-size: 25px;
   }
 
@@ -571,6 +572,11 @@ section .title::after {
     font-size: 18px;
     display: inline-block;
     padding: 8px 32px;
+  }
+
+
+  .navbar .menu li a {
+    color: #fff;
   }
 
   .skills .skills-content .text {
