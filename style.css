@@ -59,15 +59,20 @@
 }
 
 .navbar .menu li a {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
 }
 
+.navbar.sticky .menu li a {
+  color: #fff;
+}
+
 .navbar .menu li a:hover {
   background-color: #801818;
+  color: #fff;
 }
 
 .navbar.sticky .menu li hover {
@@ -79,6 +84,10 @@
   width: 50px;
   object-fit: cover;
   border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.navbar.sticky .nav-logo {
   border: 2px solid #fff;
 }
 
@@ -126,11 +135,10 @@ section .title::after {
 
 .home {
   display: flex;
-  /* background-color: #000; */
-  background: url("images/bg.jpg") no-repeat;
+  background: url("images/background1.png") no-repeat;
   height: 100vh;
-  background-color: #000;
-  color: white;
+  /* background-color: #000; */
+  color: #000;
   min-height: 500px;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -138,10 +146,14 @@ section .title::after {
 /* menu btn style */
 
 .menu-btn {
-  color: #fff;
+  color: #000;
   font-size: 23px;
   cursor: pointer;
   display: none;
+}
+
+.navbar.sticky .menu-btn{
+  color: #fff;
 }
 
 .home .max-width {
@@ -178,7 +190,7 @@ section .title::after {
 }
 
 .home .home-content a:hover {
-  color: #fff;
+  color: #000;
   background: none;
 }
 
