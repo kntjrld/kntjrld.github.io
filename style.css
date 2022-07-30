@@ -430,21 +430,46 @@ section .title::after {
 
 
 /* footer */
-
-.footerID {
-  align-items: center;
+footer {
   justify-content: center;
-  display: flex;
-  color: #fff;
-  padding: 20px 0px 5px 0px;
-  background: #801818;
+  align-items: center;
+  background: #ccc;
+  height: 0 auto;
+  padding: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer .media-box {
+  padding: 20px 0px;
+  align-content: center;
   justify-content: center;
 }
 
-.media i {
+footer .media-box h2 {
+  text-align: center;
+}
 
-  color: #fff;
-  margin-left: 20px;
+footer .media-box p {
+  text-align: center;
+}
+
+footer .media-box .media {
+  text-align: center;
+  padding: 20px;
+}
+
+.media a {
+  padding: 10px;
+  color: #000;
+}
+
+.footer-break {
+  border: 0.5px solid #000;
+  width: 100%;
+}
+
+.copyright {
+  text-align: center;
   margin-top: 10px;
 }
 
@@ -499,7 +524,7 @@ section .title::after {
   .navbar .menu li a {
     display: inline-block;
     margin: 20px 0;
-    color: #fff ;
+    color: #fff;
     font-size: 25px;
   }
 
