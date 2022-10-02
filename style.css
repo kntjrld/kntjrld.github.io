@@ -384,12 +384,11 @@ section .title::after {
 .projects-container {
   display: flex;
   margin-top: 30px;
-  border-radius: 10px;
+  border-radius: 10px ; 
 }
 
 .project-box {
   width: 50%;
-  display: none;
   margin-right: 20px;
 }
 
@@ -402,7 +401,6 @@ section .title::after {
 
 .project-link {
   width: 50%;
-  display: none;
   /* margin-left: auto; */
 }
 
