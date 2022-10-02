@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
+                <div class="text-1" data-aos="slide-right" data-aos-delay="200">Hello, my name is</div>
                 <div class="text-2"><span class="animate"></span></div>
                 <div class="text-3">And I'm a <span class="animate-1"></span></div>
                 <a href="#" onclick="alert('Working on it')">Download Resume</a>
@@ -49,7 +50,7 @@
     <!-- Education section -->
     <section class="education" id="education">
         <div class="max-width">
-            <h2 class="title">Education and Experience</h2>
+            <h2 class="title" data-aos="fade-in" data-aos-delay="200">Education and Experience</h2>
             <div class="education-content">
                 <h1>Timeline</h1>
             </div>
@@ -62,7 +63,8 @@
                         <h2>March 2021 - Present</h2>
                         <p><span>Part-time - </span>Security/Privacy researcher</p>
                         <p><span>Company: </span>Meta</p>
-                        <p><span>Hall of Fame: </span><a href="https://web.facebook.com/whitehat/thanks/" target="_blank">View here</a></p>
+                        <p><span>Hall of Fame: </span><a href="https://web.facebook.com/whitehat/thanks/"
+                                target="_blank">View here</a></p>
                     </div>
                 </div>
                 <div class="edusection">
@@ -100,7 +102,7 @@
 
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My Skills</h2>
+            <h2 class="title" data-aos="fade-in" data-aos-delay="200">My Skills</h2>
             <div class="skills-content">
                 <div class="card">
                     <div class="box">
@@ -184,16 +186,16 @@
         </div>
     </section>
 
-    <!-- Contact section -->
+    <!-- Projects section -->
     <section class="projects" id="projects">
         <div class="max-width">
-            <h2 class="title">Projects</h2>
+            <h2 class="title" data-aos="fade-in" data-aos-delay="200">Projects</h2>
 
-            <div class="projects-container">
-                <div class="project-box">
+            <div class="projects-container" data-aos="fade-in" data-aos-delay="200">
+                <div class="project-box" data-aos="fade-down" data-aos-delay="200">
                     <img src="images/project2.png" alt="">
                 </div>
-                <div class="project-link">
+                <div class="project-link" data-aos="fade-up" data-aos-delay="200">
                     <h2>Personal Website</h2><br>
                     <p>It includes here my education, experience, skills, projects and some personal information. It is
                         just builds in scratch using html, css, javascript and js libraries like jquery.</p><br>
@@ -203,10 +205,10 @@
             </div>
 
             <div class="projects-container">
-                <div class="project-box">
+                <div class="project-box" data-aos="fade-down" data-aos-delay="200">
                     <img src="images/project1.png" alt="">
                 </div>
-                <div class="project-link">
+                <div class="project-link" data-aos="fade-up" data-aos-delay="200">
                     <h2>CrptoCoin</h2><br>
                     <p>This is a crypto website where has a five navigations that includes exchange, company,
                         markets, nft and learn/faq. It also has a login and signup form. This is just static where I
@@ -218,15 +220,16 @@
             </div>
 
             <div class="projects-container">
-                <div class="project-box">
+                <div class="project-box" data-aos="fade-down" data-aos-delay="200">
                     <img src="images/project3.png" alt="">
                 </div>
-                <div class="project-link">
+                <div class="project-link" data-aos="fade-up" data-aos-delay="200">
                     <h2>Tilapia Education</h2><br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos totam, sunt atque
                         sapiente cupiditate, quia illo eligendi excepturi rem molestiae at? Ipsam, fugit! Vitae
                         repudiandae quia eius blanditiis natus. </p><br>
-                    <a href="https://tilapiaedu-kntjrld.netlify.app/">Visit Website<i class="fa-regular fa-pen-to-square"></i></a>
+                    <a href="https://tilapiaedu-kntjrld.netlify.app/">Visit Website<i
+                            class="fa-regular fa-pen-to-square"></i></a>
                     <a href="https://github.com/kntjrld/TilapiaEdu">Source code<i class="fab fa-github"></i></a>
                 </div>
             </div>
@@ -260,7 +263,6 @@
     <script src="lib/typed.js"></script>
     <script src="lib/timeline.js"></script>
 
-
     <script>
 
         // preloader
@@ -278,13 +280,20 @@
         });
 
         var typed = new Typed('.animate-1', {
-            strings: ['Application Developer','Security Researcher'],
+            strings: ['Application Developer', 'Security Researcher'],
             typeSpeed: 80,
             loop: true,
             showCursor: false
         });
 
     </script>
+
+    <!-- github.com/michalsnik/aos/ -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 
 </body>
 
