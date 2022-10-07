@@ -62,16 +62,11 @@
   color: #000;
   font-size: 18px;
   font-weight: 500;
-  margin-left: 25px;
+  margin: 10px 10px;
   transition: color 0.3s ease;
 }
 
 .navbar.sticky .menu li a {
-  color: #fff;
-}
-
-.navbar .menu li a:hover {
-  background-color: #000;
   color: #fff;
 }
 
@@ -89,6 +84,33 @@
 
 .navbar.sticky .nav-logo {
   border: 2px solid #fff;
+}
+
+
+/* underline hover in navigation */
+
+
+.navbar li > a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar li > a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+.navbar li > a:hover::after {
+  width: 100%;
+  background: #801818;
 }
 
 /* All similar content codes */
@@ -355,7 +377,7 @@ section .title::after {
   display: block;
 }
 
-.recog_div a{
+.recog_div a {
   color: #ccc;
 }
 
@@ -363,9 +385,11 @@ section .title::after {
   display: flex;
   margin-top: 30px;
 }
-.award-icon p{
+
+.award-icon p {
   font-size: 18px;
 }
+
 .award-icon i {
   margin: 5px 20px;
 }
@@ -447,7 +471,7 @@ footer .media-box p {
   text-align: center;
 }
 
-.media-box p a{
+.media-box p a {
   color: #000;
 }
 
@@ -588,12 +612,12 @@ footer .media-box .media {
     display: block;
   }
 
-  .cert-head a{
+  .cert-head a {
     margin-left: 10px;
     font-size: 13px;
   }
 
-  .recog_div h3{
+  .recog_div h3 {
     font-size: 13px;
   }
 
