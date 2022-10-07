@@ -230,7 +230,7 @@
 
             </div>
             <div class="award-icon">
-                <i class="fas fa-graduation-cap"></i>
+                <i class="fas fa-graduation-cap" data-toggle="tooltip" title="Click one to view certificate"></i>
                 <p class="recog_awards" data-aos="fade-right" data-aos-delay="100" data-aos-once="true">Related
                     learnings </p>
             </div>
@@ -247,7 +247,7 @@
                 </div>
             </div>
             <div class="award-icon">
-                <i class="fas fa-award"></i>
+                <i class="fas fa-award" data-toggle="tooltip" title="Click one to view certificate"></i></i>
                 <p class="recog_awards" data-aos="fade-right" data-aos-delay="100" data-aos-once="true">Recognition |
                     Awards</p>
             </div>
@@ -265,7 +265,8 @@
                 <div class="certificate">
                     <div class="cert-head">
 
-                        <a href="https://drive.google.com/file/d/1R1kYGn2D9nZ9LHTMvvDtbqKfWbdcTBvZ/view?usp=sharing" target="_blank">
+                        <a href="https://drive.google.com/file/d/1R1kYGn2D9nZ9LHTMvvDtbqKfWbdcTBvZ/view?usp=sharing"
+                            target="_blank">
                             <h3>
                                 <li>Programmer of the Year</li>
                             </h3>
@@ -274,7 +275,8 @@
                 </div>
                 <div class="certificate">
                     <div class="cert-head">
-                        <a href="https://drive.google.com/file/d/1R3Ar22c8HCJqRDyrPFxCf2BK1g-Hf97S/view?usp=sharing" target="_blank">
+                        <a href="https://drive.google.com/file/d/1R3Ar22c8HCJqRDyrPFxCf2BK1g-Hf97S/view?usp=sharing"
+                            target="_blank">
                             <h3>
                                 <li>Best in Thesis</li>
                             </h3>
@@ -398,6 +400,12 @@
         AOS.init();
     </script>
 
+    <!-- Tool tip script -->
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 
 </body>
 
