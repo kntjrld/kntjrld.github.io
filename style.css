@@ -438,7 +438,7 @@ section .title::after {
 .project-link a:hover {
   background-color: #FFF;
   color: #000;
-  border: 2px solid #801818;
+  border: 2px solid #000;
 }
 
 .project-link i {
@@ -455,6 +455,11 @@ footer {
   padding: 20px;
   font-family: 'Ubuntu', sans-serif;
 }
+/* 
+.waves {
+  position:relative;
+  width: 100%;
+} */
 
 footer .media-box {
   padding: 20px 0px;
