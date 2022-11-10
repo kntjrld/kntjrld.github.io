@@ -427,7 +427,7 @@ section .title::after {
   text-align: justify;
 }
 
-.project-link a {
+.project-link .link_btn {
   padding: 10px;
   border-radius: 10px;
   font-size: 12px;
@@ -435,7 +435,7 @@ section .title::after {
   color: #fff;
 }
 
-.project-link a:hover {
+.project-link .link_btn:hover {
   background-color: #FFF;
   color: #000;
   border: 2px solid #000;
