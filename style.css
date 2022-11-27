@@ -17,6 +17,7 @@
   right: 40px;
   background-color: #000;
   color: #FFF;
+  border: 1px solid #fff;
   border-radius: 50px;
   text-align: center;
 }
@@ -43,7 +44,7 @@
 
 .navbar.sticky {
   padding: 15px 0;
-  background: #000;
+  background: #483C32;
 }
 
 .navbar .max-width {
@@ -59,7 +60,7 @@
 }
 
 .navbar .menu li a {
-  color: #000;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
   margin: 10px 10px;
@@ -70,7 +71,7 @@
   color: #fff;
 }
 
-.navbar.sticky .menu li hover {
+.navbar.sticky .menu li:hover {
   color: #fff;
 }
 
@@ -79,7 +80,7 @@
   width: 50px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #000;
+  border: 2px solid #fff;
 }
 
 .navbar.sticky .nav-logo {
@@ -110,7 +111,7 @@
 
 .navbar li > a:hover::after {
   width: 100%;
-  background: #801818;
+  background: #fff;
 }
 
 /* All similar content codes */
@@ -157,9 +158,10 @@ section .title::after {
 
 .home {
   display: flex;
-  background: url("images/background1.png") no-repeat;
+  /* background: url("images/background1.png") no-repeat; */
+  background-color: #000;
   height: 100vh;
-  color: #000;
+  color: #fff;
   min-height: 400px;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -167,7 +169,7 @@ section .title::after {
 /* menu btn style */
 
 .menu-btn {
-  color: #000;
+  color: #fff;
   font-size: 23px;
   cursor: pointer;
   display: none;
@@ -211,9 +213,62 @@ section .title::after {
 }
 
 .home .home-content a:hover {
-  color: #000;
+  color: #fff;
   background: none;
 }
+
+/* Stars */
+
+
+.star {
+  background: grey;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  content: '';
+  border-radius: 100%;
+  transform: rotate(250deg);
+  opacity: 0.4;
+  animation-name: shimmer;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shimmer {
+  from {opacity: 0;}
+  to {opacity: 0.7;}
+}
+
+.star1 {
+  top: 40%;
+  left: 50%;
+  animation-delay: 1s;
+}
+
+.star2 {
+  top: 60%;
+  left: 90%;
+  animation-delay: 3s;
+}
+
+.star3 {
+  top: 10%;
+  left: 70%;
+  animation-delay: 2s;
+}
+
+.star4 {
+  top: 90%;
+  left: 40%;
+}
+
+.star5 {
+  top: 20%;
+  left: 30%;
+  animation-delay: 0.5s;
+}
+
 
 /* education section style */
 
@@ -233,6 +288,9 @@ section .title::after {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+.education, .projects{
+  background: #f3f2f2;
 }
 
 .education-content h1 {
@@ -450,7 +508,7 @@ section .title::after {
 footer {
   justify-content: center;
   align-items: center;
-  background: #ccc;
+  background: #483C32;
   height: 0 auto;
   padding: 20px;
   font-family: 'Ubuntu', sans-serif;
@@ -469,14 +527,16 @@ footer .media-box {
 
 footer .media-box h2 {
   text-align: center;
+  color: #fff;
 }
 
 footer .media-box p {
   text-align: center;
+  color: #fff;
 }
 
 .media-box p a {
-  color: #000;
+  color: #fff;
 }
 
 footer .media-box .media {
@@ -486,17 +546,18 @@ footer .media-box .media {
 
 .media a {
   padding: 10px;
-  color: #000;
+  color: #fff;
 }
 
 .footer-break {
-  border: 0.5px solid #000;
+  border: 0.5px solid #fff;
   width: 100%;
 }
 
 .copyright {
   text-align: center;
   margin-top: 10px;
+  color: #fff;
 }
 
 /* responsive media query */
@@ -519,6 +580,7 @@ footer .media-box .media {
   }
 
   .menu-btn {
+    margin-right: 10px;
     display: block;
     z-index: 999;
   }
