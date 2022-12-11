@@ -719,6 +719,10 @@ footer .media-box .media {
       border-radius: 50%;
     }
 
+    .home-content {
+      transform: translateY(100%);
+    }
+
     .home .home-content .text-2 {
       font-size: 30px;
     }
