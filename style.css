@@ -811,12 +811,7 @@ footer .media-box .media {
 
   }
 
-  @media (max-height: 900px) {
-    .home-content {
-      transform: translate(0,150%);
-    }
-  }
-  @media (max-height: 950px) {
+  @media (max-height: 1000px) {
     .home-content {
       transform: translate(0,150%);
     }
