@@ -21,7 +21,7 @@
     <nav class="navbar">
         <div class="max-width">
             <div class="logo">
-                <img src="images/pic.jpg" class="nav-logo">
+                <img src="images/k.jpg" class="nav-logo">
             </div>
             <ul class="menu">
                 <li><a class="active-nav" href="#home">Home</a></li>
@@ -45,10 +45,24 @@
         <div class="star star5"></div>
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1" data-aos="slide-right" data-aos-delay="200">Hello, my name is</div>
-                <div class="text-2"><span class="animate"></span></div>
-                <div class="text-3">And I'm a <span class="animate-1"></span></div>
-                <a href="#" onclick="alert('Working on it')">Download CV</a>
+                <div class="home-text">
+                    <div class="text-2"><span class="animate"></span></div>
+                    <div class="text-1"><span class="animate-1"></span></div>
+                </div>
+                <div class="home-media">
+                    <a href="https://www.facebook.com/kntjrld" target="_blank" data-aos="fade-in" data-aos-delay="30" data-aos-once="true"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/kntjrld" target="_blank" data-aos="fade-in" data-aos-delay="50" data-aos-once="true"><i class="fab fa-github"></i></a>
+                    <a href="https://www.medium.com/@kntjrld" target="_blank" data-aos="fade-in" data-aos-delay="80" data-aos-once="true"><i class="fab fa-medium"></i></a>
+                    <a href="https://t.me/kntjrld" target="_blank" data-aos="fade-in" data-aos-delay="110" data-aos-once="true"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.linkedin.com/in/kntjrld" target="_blank" data-aos="fade-in" data-aos-delay="140" data-aos-once="true"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cv">
+                    <a href="#" class="dlcv">Download CV</a>
+                </div>
+                <!-- <div class="text-1" data-aos="slide-right" data-aos-delay="200">Hello, my name is</div> -->
+                <!-- <div class="text-2"><span class="animate"></span></div>                 -->
+                <!-- <div class="text-3">And I'm a <span class="animate-1"></span></div> -->
+                
             </div>
         </div>
     </section>
@@ -71,6 +85,7 @@
                         <p><span>Project: </span></i> A android based e-learning application.</p>
                         <p><span>Tools: </span>Android Studio</p>
                         <p><span>Database: </span>SQLITE</p>
+                        <p><span>Programming Language: </span>Java</p>
                     </div>
                 </div>
                 <div class="edusection">
@@ -80,6 +95,7 @@
                         <p><span>OJT/Intership: </span>Software Developer</p>
                         <p><span>Tools: </span>VB.NET | SAP Crystal Report</p>
                         <p><span>Database: </span>SQL server Management Studio</p>
+                        <p><span>Programming Language: </span>Visual Basic</p>
                     </div>
                 </div>
                 <div class="edusection">
@@ -416,9 +432,11 @@
                 </div>
                 <div class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                     <h2>i-OSCA</h2><br>
-                    <p>It a PHP project with Mysql database, Bootstrap 5, Javascript, Ajax, jQuery and other js libraries and plugins.
+                    <p>It a PHP project with Mysql database, Bootstrap 5, Javascript, Ajax, jQuery and other js
+                        libraries and plugins.
                         i-OSCA is a social pension system that provides financial assistance.
-                        The program is designed to help ensure that eligible individuals will benefit this government program.</p><br>
+                        The program is designed to help ensure that eligible individuals will benefit this government
+                        program.</p><br>
                     <a href="#" target="_blank" class="link_btn">View demo<i
                             class="fa-regular fa-pen-to-square"></i></a>
                     <a href="https://github.com/kntjrld/i-osca" target="_blank" class="link_btn">Source code<i
@@ -465,19 +483,28 @@
             loader.style.display = "none"
         });
 
-        //  typed animation
+        //  typed animation 1
         var typed = new Typed('.animate', {
             strings: ['Kent Jarold Abulag'],
-            typeSpeed: 60,
+            typeSpeed: 20,
             loop: false,
             showCursor: false
         });
 
+        // double string
+        // var typed = new Typed('.animate-1', {
+        //     strings: ['Software/Web Developer', 'Security Researcher'],
+        //     typeSpeed: 80,
+        //     loop: true,
+        //     showCursor: false
+        // });
+
+        //  typed animation 2
         var typed = new Typed('.animate-1', {
-            strings: ['Software/Web Developer', 'Security Researcher'],
-            typeSpeed: 80,
-            loop: true,
-            showCursor: false
+            strings: ['Software Developer | Security Researcher'],
+            typeSpeed: 60,
+            loop: false,
+            showCursor: true
         });
 
     </script>
