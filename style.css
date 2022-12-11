@@ -706,9 +706,7 @@ footer .media-box .media {
     font-size: 13px;
   }
 
-
-
-  @media (max-width: 690px) {
+  @media (max-width: 690px){
     .max-width {
       padding: 0 23px;
     }
@@ -769,7 +767,7 @@ footer .media-box .media {
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 500px){
     .max-width {
       padding: 0 20px;
     }
@@ -817,6 +815,11 @@ footer .media-box .media {
 
   }
 
+  @media (max-height: 900px) {
+    .home-content {
+      transform: translate(0,100%);
+    }
+  }
   #preloader {
     background: #fff url(images/preloader.gif) no-repeat center center;
     background-size: 30%;
