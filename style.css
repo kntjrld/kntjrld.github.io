@@ -19,7 +19,7 @@
   height: 60px;
   bottom: 40px;
   right: 40px;
-  background-color: var(--secondary);
+  background-color: #000;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 50px;
@@ -537,7 +537,7 @@ section .title::after {
 footer {
   justify-content: center;
   align-items: center;
-  background: #483C32;
+  background: var(--secondary);
   height: 0 auto;
   padding: 20px;
   font-family: 'Ubuntu', sans-serif;
