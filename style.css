@@ -718,10 +718,6 @@ footer .media-box .media {
       border-radius: 50%;
     }
 
-    .home-content {
-      transform: translate(0,50%);
-    }
-
     .home .home-content .text-2 {
       font-size: 35px;
     }
@@ -817,7 +813,12 @@ footer .media-box .media {
 
   @media (max-height: 900px) {
     .home-content {
-      transform: translate(0,100%);
+      transform: translate(0,150%);
+    }
+  }
+  @media (max-height: 950px) {
+    .home-content {
+      transform: translate(0,150%);
     }
   }
   #preloader {
