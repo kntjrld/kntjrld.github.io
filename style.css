@@ -185,7 +185,7 @@ section .title::after {
 }
 
 .home-content {
-  transform: translate(0,50%);
+  transform: translate(0,60%);
 }
 
 .home .home-content .text-2 {
@@ -720,7 +720,7 @@ footer .media-box .media {
     }
 
     .home-content {
-      transform: translateY(100%);
+      transform: translate(0,110%);
     }
 
     .home .home-content .text-2 {
@@ -774,9 +774,9 @@ footer .media-box .media {
     }
 
     .home-content {
-      transform: translateY(100%);
+      transform: translate(0,110%);
     }
-
+    
     .home .home-content .text-2 {
       font-size: 35px;
     }
