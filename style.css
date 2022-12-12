@@ -819,6 +819,18 @@ footer .media-box .media {
       transform: translate(0,150%);
     }
   }
+
+  @media (max-height: 830px) {
+    .home-content {
+      transform: translate(0,100%);
+    }
+  }
+
+  @media (max-height: 730px) {
+    .home-content {
+      transform: translate(0,80%);
+    }
+  }
   #preloader {
     background: #fff url(images/preloader.gif) no-repeat center center;
     background-size: 30%;
