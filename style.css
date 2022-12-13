@@ -640,7 +640,7 @@ footer .media-box .media {
     display: inline-block;
     margin: 20px 0;
     color: #fff;
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .home .home-content .text-2 {
@@ -721,6 +721,9 @@ footer .media-box .media {
       border-radius: 50%;
     }
 
+  .navbar .menu li a {
+    font-size: 16px;
+    }
     .home .home-content .text-2 {
       font-size: 35px;
     }
