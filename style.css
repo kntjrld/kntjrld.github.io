@@ -449,22 +449,25 @@ section .title::after {
 .card i {
   color: #000;
 }
-
-.certificate {
-  margin: 10px 10px;
-  width: 100%;
-}
-
 .recog_div {
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.certificate{
+  width:32%;
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 .recog_div .cert-head {
   text-align: center;
   display: block;
 }
-
+.cert-head i{
+  padding: 3px;
+}
 .recog_div a {
   color: #ccc;
 }
@@ -690,12 +693,18 @@ footer .media-box .media {
     right: 36px;
   }
 
-
+/* recognition / related learnning */
   .recog_div {
-    display: block;
+    display: flex;
+    width: 100%;    
   }
 
-  .recog_div .cert-head {
+  .certificate{
+    width: 40%;
+    text-align: justify;
+  }
+
+  .cert-head {
     text-align: left;
     display: block;
   }
