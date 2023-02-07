@@ -456,7 +456,7 @@ section .title::after {
   justify-content: space-between;
 }
 .certificate{
-  width:32%;
+  width:20%;
   font-size: 12px;
   margin-top: 20px;
 }
