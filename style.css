@@ -708,7 +708,6 @@ footer .media-box .media {
     font-size: 18px;
   }
 
-
   .max-width {
     max-width: 800px;
   }
@@ -771,7 +770,13 @@ footer .media-box .media {
   .recog_div h3 {
     font-size: 13px;
   }
+  #slider img {
+  height: 280px;
+  }
 
+  #slider{
+    height: 280px;
+  }
   @media (max-width: 690px){
     .max-width {
       padding: 0 23px;
@@ -830,6 +835,14 @@ footer .media-box .media {
     .projects-container {
       display: block;
     }
+    
+  #slider img {
+    height: 270px;
+    }
+  
+    #slider{
+      height: 270px;
+    }
   }
 
   @media (max-width: 500px){
@@ -877,7 +890,14 @@ footer .media-box .media {
       bottom: 18px;
       right: 18px;
     }
-
+    
+  #slider img {
+    height: 250px;
+    }
+  
+    #slider{
+      height: 250px;
+    }
   }
 
   @media (max-height: 1000px) {
