@@ -80,10 +80,21 @@
                 <div class="edusection">
                     <div class="bead"></div>
                     <div class="content">
-                        <h2><i class="fas fa-calendar-days"></i> January 2023 - Present</h2>
-                        <p><span>Company: </span></i>RCG Global Services | Sun life Global Solutions</p>
-                        <p><span>Position: </span>Consultant | Analyst Programmer</p>
-                        <p><span>Office Address: </span>7/F Sun Life Centre, 5th Avenue Corner, Rizal Drive, Bonifacio Global City, Taguig City, Philippines 1634</p>
+                        <h2><i class="fas fa-calendar-days"></i> April 2025 - Present</h2>
+                        <p><span>Company: </span></i>Sun life Global Solutions</p>
+                        <p><span>Position: </span>Analyst Programmer</p>
+                        <p><span>Office Address: </span>7/F Sun Life Centre, 5th Avenue Corner, Rizal Drive, Bonifacio
+                            Global City, Taguig City, Philippines 1634</p>
+                    </div>
+                </div>
+                <div class="edusection">
+                    <div class="bead"></div>
+                    <div class="content">
+                        <h2><i class="fas fa-calendar-days"></i> January 2023 - March 2025</h2>
+                        <p><span>Company: </span></i>RCG Information Technology PH</p>
+                        <p><span>Position: </span>Consultant | Junior Dev</p>
+                        <p><span>Office Address: </span>3F Finman Building, 131 Tordesillas St., 1227 Makati City,
+                            Phillippines</p>
                     </div>
                 </div>
                 <div class="edusection">
@@ -546,7 +557,7 @@
             </div>
             <div class="footer-break"></div>
             <div class="copyright">
-                <p>© Copyright 2022 - kntjrld</p>
+                <p>© Copyright <span id="current-year"></span> - kntjrld</p>
             </div>
         </div>
     </footer>
@@ -603,6 +614,10 @@
         });
     </script>
 
+    <script>
+        // Set the current year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
