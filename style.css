@@ -428,7 +428,7 @@ section .title::after {
 .skills .skills-content .card {
   width: 20%;
   margin-top: 10px;
-  height: 200px;
+  height: 150px;
   background: #E2E2E2;
   text-align: center;
   border-radius: 6px;
@@ -439,7 +439,7 @@ section .title::after {
 }
 
 .card img {
-  height: 100px;
+  height: 50px;
 }
 
 .skills-img h6 {
@@ -555,6 +555,10 @@ section .title::after {
 
 #slider img:first-child {
   opacity: 1; /* Set the first image to be visible */
+}
+
+.projects-container .blur-me {
+  filter: blur(5px);
 }
 
 @keyframes fade {
