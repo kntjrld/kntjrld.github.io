@@ -6,7 +6,8 @@
     <title>Personal Website</title>
     <!-- icon -->
     <link rel="icon" href="images/badge.svg" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/skills.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
@@ -140,12 +141,56 @@
             <h2 class="title" data-aos="fade-in" data-aos-delay="200" data-aos-once="true">Skills</h2>
             <div class="skills-content">
 
+                <!-- node js -->
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="skills-img">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/250px-Node.js_logo.svg.png"
+                                data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
+                            <h6>Node JS</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- aws -->
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="skills-img">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/250px-Amazon_Web_Services_Logo.svg.png"
+                                data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
+                            <h6>AWS (S3, EC2)</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- spring boot -->
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="skills-img">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/250px-Spring_Boot.svg.png"
+                                data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
+                            <h6>Spring Boot</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- git -->
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="skills-img">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/250px-Git-logo.svg.png"
+                                data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
+                            <h6>GIT</h3>
+                        </div>
+                    </div>
+                </div>
                 <!-- HTML -->
                 <div class="card html-front">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="skills-img">
-                            <img src="https://drive.google.com/thumbnail?id=1DAfwWOhBP96k_45OZnky4FcpkxrdyiLm"
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png"
                                 data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
                             <h6>Intermidiate</h3>
                         </div>
@@ -167,7 +212,7 @@
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="skills-img">
-                            <img src="https://drive.google.com/thumbnail?id=1uTdCnYNoAWjwRj5ShRr-1PJSHiMw60wd"
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/120px-Official_CSS_Logo.svg.png"
                                 data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
                             <h6>Intermidiate</h3>
                         </div>
@@ -200,7 +245,7 @@
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="skills-img">
-                            <img src="https://drive.google.com/thumbnail?id=1Cj-Yj-YlHnQlXD6cN55lcDwT1NqQfVB0"
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png"
                                 data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
                             <h6>Intermidiate</h3>
                         </div>
@@ -319,6 +364,10 @@
                     </div>
                 </div>
             </div>
+            <div class="button-div">
+                <button id="toggle-skills" class="toggle-btn  fa fa-chevron-down">
+            </div>
+            </button>
             <div class="award-icon">
                 <i class="fas fa-graduation-cap" data-toggle="tooltip" title="Click one to view certificate"></i>
                 <p class="recog_awards" data-aos="fade-right" data-aos-delay="100" data-aos-once="true">Related
@@ -526,9 +575,11 @@
                     <h2 class="blur-me">i-OSCA</h2><br>
                     <p>It a PHP project with Mysql database, Bootstrap 5, Javascript, Ajax, jQuery and other js
                         libraries and plugins.
-                        <span class="blur-me">i-OSCA</span> is a social pension system that provides financial assistance.
+                        <span class="blur-me">i-OSCA</span> is a social pension system that provides financial
+                        assistance.
                         The program is designed to help ensure that eligible individuals will benefit this government
-                        program.</p><br>
+                        program.
+                    </p><br>
                     <a href="https://i-osca.000webhostapp.com/" target="_blank" class="link_btn">View demo<i
                             class="fa-regular fa-pen-to-square"></i></a>
                     <a href="https://github.com/kntjrld/i-osca" target="_blank" class="link_btn">Source code<i
@@ -551,10 +602,12 @@
                     <h2 class="blur-me">Data Tracking System (DTS)</h2><br>
                     <p>It a PHP project with Mongo cloud DB, Bootstrap 5, Javascript, Ajax, jQuery and other js
                         libraries and plugins.
-                        <span class="blur-me">Data Tracking System (DTS)</span> is a web-based application that allows users to track and manage
+                        <span class="blur-me">Data Tracking System (DTS)</span> is a web-based application that allows
+                        users to track and manage
                         data efficiently. It provides features for creating, tracking, and managing data records in a
                         user-friendly interface. The system is designed to streamline data management processes and
-                        improve productivity.</p><br>
+                        improve productivity.
+                    </p><br>
                     <a href="https://dts-2e9cd5f8da4a.herokuapp.com/" target="_blank" class="link_btn">View demo<i
                             class="fa-regular fa-pen-to-square"></i></a>
                     <a href="https://github.com/kntjrld/dts" target="_blank" class="link_btn">Source code<i
@@ -645,6 +698,18 @@
     <script>
         // Set the current year dynamically
         document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+
+    <!-- view -->
+    <script>
+        const toggleBtn = document.getElementById("toggle-skills");
+        const skillsContent = document.querySelector(".skills-content");
+
+        toggleBtn.addEventListener("click", () => {
+            skillsContent.classList.toggle("expanded");
+            toggleBtn.classList.toggle("fa-chevron-down");
+            toggleBtn.classList.toggle("fa-chevron-up");
+        });
     </script>
 </body>
 

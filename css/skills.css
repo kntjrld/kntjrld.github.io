@@ -1,0 +1,28 @@
+.skills-content .card {
+  display: none;
+}
+
+.skills-content .card:nth-child(-n+8) {
+  display: block;
+}
+
+.skills-content.expanded .card {
+  display: block;
+}
+
+.toggle-btn {
+  background-color:#fff;
+	border: none;
+	border-radius: 100%;
+	color: #000;
+	cursor: pointer;
+	height: 40px;
+	transition: background-color .25s ease;
+	width: 40px;
+	font-size: 20px;
+}
+
+.button-div {
+  text-align: center;
+  margin-top: 20px;
+}
