@@ -180,7 +180,18 @@ section .title::after {
   display: none;
 }
 
+.theme-toggle {
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
 .navbar.sticky .menu-btn {
+  color: #fff;
+}
+
+.navbar.sticky .theme-toggle {
   color: #fff;
 }
 
@@ -450,26 +461,43 @@ section .title::after {
   color: #000;
 }
 .recog_div {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.certificate{
-  width:20%;
-  font-size: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
   margin-top: 20px;
 }
 
-.recog_div .cert-head {
+.certificate {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
   text-align: center;
-  display: block;
+  transition: border-color 0.3s ease;
 }
-.cert-head i{
-  padding: 3px;
+
+.certificate:hover {
+  border-color: #007bff;
 }
+
+.recog_div .cert-head {
+  margin-bottom: 10px;
+}
+
+.cert-head i {
+  color: #007bff;
+  margin-right: 5px;
+}
+
 .recog_div a {
-  color: #ccc;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.recog_div a:hover {
+  color: #007bff;
 }
 
 .award-icon {
@@ -483,6 +511,17 @@ section .title::after {
 
 .award-icon i {
   margin: 5px 20px;
+}
+
+.recog_awards {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* projects section style */
@@ -752,22 +791,23 @@ footer .media-box .media {
 
 /* recognition / related learnning */
   .recog_div {
-    display: flex;
-    width: 100%;    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .certificate{
-    width: 40%;
-    text-align: justify;
+    padding: 15px;
+    border-radius: 8px;
   }
 
   .cert-head {
-    text-align: left;
+    text-align: center;
     display: block;
   }
 
   .cert-head a {
-    margin-left: 10px;
+    margin-left: 0;
     font-size: 13px;
   }
 
